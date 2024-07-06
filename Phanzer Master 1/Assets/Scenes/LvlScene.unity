@@ -524,6 +524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 81754639}
   - component: {fileID: 81754638}
+  - component: {fileID: 81754640}
   m_Layer: 0
   m_Name: aaFondo
   m_TagString: Untagged
@@ -598,6 +599,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &81754640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81754637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe4a0955bcd046744bc9770c64224ec6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScene: 
 --- !u!1 &92282621
 GameObject:
   m_ObjectHideFlags: 0

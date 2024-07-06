@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1)) { SpawnTank(GetRandomSpawnPoint(base1SpawnPoints, ref lastBase1SpawnPoint), 0, player1TankPrefabs, "Tank1", 100, 5, 20, 2, "Base1", 19, 80); } //Ofensivo
         if (Input.GetKeyDown(KeyCode.Alpha2)) { SpawnTank(GetRandomSpawnPoint(base1SpawnPoints, ref lastBase1SpawnPoint), 1, player1TankPrefabs, "Tank2", 300, 4, 8, 1, "Base1", 30, 140); } //Defensivo
         if (Input.GetKeyDown(KeyCode.Alpha3)) { SpawnTank(GetRandomSpawnPoint(base1SpawnPoints, ref lastBase1SpawnPoint), 2, player1TankPrefabs, "Tank3", 150, 6, 17, 1.5f, "Base1", 18, 110); } //Normal
-        if (Input.GetKeyDown(KeyCode.Alpha4)) { SpawnTank(GetRandomSpawnPoint(base1SpawnPoints, ref lastBase1SpawnPoint), 3, player1TankPrefabs, "Tank4", 45, 5, 30, 2.5f, "Base1", 19, 55); } //Soporte
+        if (Input.GetKeyDown(KeyCode.Alpha4)) { SpawnTank(GetRandomSpawnPoint(base1SpawnPoints, ref lastBase1SpawnPoint), 3, player1TankPrefabs, "Tank4", 40, 5, 25, 2.5f, "Base1", 19, 55); } //Soporte
         if (Input.GetKeyDown(KeyCode.Alpha5)) { SpawnTank(GetRandomSpawnPoint(base1SpawnPoints, ref lastBase1SpawnPoint), 4, player1TankPrefabs, "Tank5", 2, 8, 100, 2, "Base1", 55, 140); } //Especial
 
         // Controles para base 2
